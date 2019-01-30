@@ -22,7 +22,6 @@ if(position_taken?(board,index) == false && onboardornot?(number) == true)
 else
   return false
 end
-end 
 
 
 end
