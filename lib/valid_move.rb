@@ -8,5 +8,5 @@ def valid_move(move)
         else
           return true
         end
-  if 
+  if
 end
