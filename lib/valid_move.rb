@@ -13,7 +13,7 @@ def valid_move?(board, index)
   def onboardornot?(number)
     if number.between?(0,8) == true
       return true
-    elsif position_taken?(number) == true && number.between?(0,8) == true
+    elsif position_taken?(index) == true && number.between?(0,8) == true
       return false
     else
       return false
