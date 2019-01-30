@@ -10,7 +10,7 @@ def valid_move?(board, index)
       return true
     end
   end
-  
+
   def onboardornot?(num)
     if num.between?(0, 8) == true
       return true
@@ -54,4 +54,3 @@ def valid_move?(board, index)
 
 
 end
-
