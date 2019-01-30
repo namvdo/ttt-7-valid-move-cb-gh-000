@@ -20,7 +20,7 @@ def valid_move?(board, index)
 if position_taken?(board, index) == false && onboardornot?(index) == true
   return true
 elsif position_taken?(board, index) == true && onboardornot?(index) == true
-  return false
+  return nil
 else
   return false
 end
