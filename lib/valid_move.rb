@@ -8,4 +8,4 @@ def valid_move
         else
           return true
         end
-end 
+end
