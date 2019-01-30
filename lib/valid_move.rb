@@ -14,7 +14,7 @@ def valid_move?(board, index)
     if number.between?(0,8) == true
       return true
     else
-      return false
+      return false || nil
     end
   end
 if position_taken?(board,index) == false && onboardornot?(index) == true
