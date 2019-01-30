@@ -2,7 +2,6 @@
 
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
-require_relative './spec/valid_move_spec.rb'
 def valid_move?(board, index)
   def position_taken?(array, index)
     if array[index] == "" || array[index] = " " || array[index] = nil
