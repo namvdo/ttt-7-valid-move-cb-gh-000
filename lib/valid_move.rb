@@ -2,17 +2,6 @@
 
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
-def valid_move(board, index)
-  gets = input
-  index = input.to_i - 1
-  if position_taken board[index] == "" || board[index] == " " || board[index] == nil
-           false
-        else
-          true
-        end
-  if move >= 1 && move <= 9
-    true
-  else
-    false
-  end
+def valid_move?(board, index)
+
 end
