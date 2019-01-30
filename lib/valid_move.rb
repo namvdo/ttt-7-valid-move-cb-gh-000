@@ -19,6 +19,7 @@ def valid_move?(board, index)
   end
 if position_taken?(board,index) == true
   return nil
+end
 if position_taken?(board,index) == false && onboardornot?(index) == true
   return true
 else
