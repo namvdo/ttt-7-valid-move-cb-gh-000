@@ -17,7 +17,7 @@ def valid_move?(board, index)
       return false
     end
   end
-if(position_taken?(board,index) == false && onboardornot?(number) == true)
+if(position_taken?(board,index) == false && onboardornot?(index) == true)
   return true
 else
   return false
