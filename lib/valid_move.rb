@@ -7,7 +7,6 @@ def valid_move(move)
   for i in board do
     index = board[i]
   end
-  end
   if position_taken board[index] == "" || board[index] == " " || board[index] == nil
            false
         else
