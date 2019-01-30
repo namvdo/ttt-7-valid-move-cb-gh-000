@@ -8,7 +8,7 @@ def valid_move(move)
         else
           true
         end
-  if move >= 1 && <= 9
+  if move >= 1 && move <= 9
     return true
   else
     return false
